@@ -5,7 +5,7 @@ html, body {
 
 .first-section {
   background-color: #e7d9ea;
-  height: 90%;
+  height: 70%;
 }
 
 .navbar {
@@ -37,7 +37,7 @@ h1 {
   padding-top: 40px;
   font-family: 'Playfair Display SC', serif;
   font-weight: 500;
-  color: white;
+  color: #350b40;;
   text-align: center;
 }
 
@@ -72,9 +72,9 @@ h1 {
   height: 90%;
 }
 .second-heading{
-    font-family: 'Inconsolata', monospace;
+  font-family: 'Shippori Mincho', serif;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 
@@ -102,16 +102,16 @@ bottom: 20px;
 h3{
   text-align: center;
   padding-top: 50px;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Martel', serif;
   line-height: 4;
   padding-bottom: 20px;
 }
 .links{
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   color: #822659;
 }
 .fourth-section{
-  background-color: #ccf2f4;
+  background-color: #2c061f;
   position: relative;
   bottom: 40px;
 }
@@ -120,6 +120,7 @@ h2{
   font-family: 'Inconsolata', monospace;
   padding-top: 30px;
   padding-bottom: 20px;
+  color: white;
 }
 .icon{
 color: black;
@@ -146,6 +147,6 @@ h6{
 .mail{
   padding-bottom: 15px;
 }
-a:hover{
+links:hover{
   color: red;
 }
