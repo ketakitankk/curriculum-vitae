@@ -1,0 +1,151 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+.first-section {
+  background-color: #e7d9ea;
+  height: 90%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #351f39;
+  position: fixed;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-toggler{
+  padding-right: 20px;
+}
+.nav-item {
+  padding: 0 18px;
+  float: right;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+h1 {
+  padding-top: 40px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.profile {
+  align-content: center;
+  padding-bottom: 2px;
+  padding-top: 20px;
+}
+
+.col {
+  text-align: center;
+}
+
+.txt {
+  text-align: center;
+}
+
+.intro {
+  color: #2c061f;
+  overflow: auto;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 40px;
+}
+
+.second-section {
+  background-color: #fcd1d1;
+  position: relative;
+  bottom: 8px;
+  height: 90%;
+}
+.second-heading{
+    font-family: 'Inconsolata', monospace;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.carousel-inner {
+  text-align: center;
+}
+
+.testimonial-text {
+  padding-top: 60px;
+  font-family: 'Old Standard TT', serif;
+  color: #5b5b5b;
+}
+
+.testimonial-image {
+  text-align: center;
+}
+
+/* third section */
+.third-section{
+position: relative;
+bottom: 20px;
+  background-color: #e7d9ea;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Inconsolata', monospace;
+  line-height: 4;
+  padding-bottom: 20px;
+}
+.links{
+  padding-bottom: 30px;
+  color: #822659;
+}
+.fourth-section{
+  background-color: #ccf2f4;
+  position: relative;
+  bottom: 40px;
+}
+h2{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.icon{
+color: black;
+position: relative;
+left: 40%;
+padding-bottom: 10px;
+}
+.icon:hover{
+  color: pink;
+}
+.card-deck{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+h5{
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+h6{
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.mail{
+  padding-bottom: 15px;
+}
+a:hover{
+  color: red;
+}
