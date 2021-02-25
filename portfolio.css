@@ -60,10 +60,11 @@ h1 {
   color: #2c061f;
   overflow: auto;
   font-family: 'Inconsolata', monospace;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 25px;
+  bottom: 10px;
+  text-align: center;
 }
 
 .second-section {
