@@ -1,11 +1,12 @@
 html, body {
   position: relative;
   height: 100%;
+  width: auto;
 }
 
 .first-section {
   background-color: #e7d9ea;
-  height: 70%;
+  height: auto;
 }
 
 .navbar {
@@ -69,7 +70,8 @@ h1 {
   background-color: #fcd1d1;
   position: relative;
   bottom: 8px;
-  height: 90%;
+  height: auto;
+  padding-bottom: 20px;
 }
 .second-heading{
   font-family: 'Shippori Mincho', serif;
@@ -80,6 +82,7 @@ h1 {
 
 .carousel-inner {
   text-align: center;
+  height: auto;
 }
 
 .testimonial-text {
@@ -95,9 +98,10 @@ h1 {
 /* third section */
 .third-section{
 position: relative;
-bottom: 20px;
+bottom: 8px;
   background-color: #e7d9ea;
   text-align: center;
+  height: auto;
 }
 h3{
   text-align: center;
@@ -114,6 +118,7 @@ h3{
   background-color: #2c061f;
   position: relative;
   bottom: 40px;
+  height: auto;
 }
 h2{
   text-align: center;
@@ -147,6 +152,17 @@ h6{
 .mail{
   padding-bottom: 15px;
 }
-links:hover{
-  color: red;
+/* Fifth section */
+
+.fifth-section{
+position: relative;
+bottom: 40px;
+background-color: pink;
+height: auto;
+}
+.fifth{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
 }
