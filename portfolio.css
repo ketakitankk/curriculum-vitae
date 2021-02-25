@@ -57,8 +57,7 @@ h1 {
 }
 
 .intro {
-  color: #2c061f;
-  overflow: auto;
+   color: #2c061f;
   font-family: 'Inconsolata', monospace;
   padding-top: 90px;
   padding-bottom: 10px;
