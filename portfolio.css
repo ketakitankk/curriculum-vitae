@@ -5,13 +5,16 @@ html, body {
 }
 
 .first-section {
-  background-color: #e7d9ea;
-  height: auto;
+  background-image: url("images/profilepicture.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  height: 780px;
+  padding-bottom: 20px;
 }
 
 .navbar {
   padding: 0 0 4.5rem;
-  background-color: #351f39;
+  background-color: #4a503d;
   position: fixed;
 }
 
@@ -21,9 +24,11 @@ html, body {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   padding-right: 20px;
 }
+
 .nav-item {
   padding: 0 18px;
   float: right;
@@ -36,9 +41,10 @@ html, body {
 
 h1 {
   padding-top: 80px;
+  padding-left: 50px;
   font-family: 'Playfair Display SC', serif;
-  font-weight: 500;
-  color: #350b40;;
+  font-weight: 900;
+  color: black;
   text-align: center;
 }
 
@@ -46,7 +52,6 @@ h1 {
   align-content: center;
   padding-bottom: 30px;
   padding-top: 20px;
-
 }
 
 .col {
@@ -58,28 +63,45 @@ h1 {
 }
 
 .intro {
-   color: #2c061f;
+  background-color: #4a503d;
+  color: white;
   font-family: 'Inconsolata', monospace;
-  padding-top: 90px;
-  padding-bottom: 10px;
-  position: relative;
-  bottom: 10px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  bottom: 5px;
   text-align: center;
+  position: relative;
+  border-radius: 20px;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(22, 160, 133, 1.0) 50%);
+  background-size: 200%;
+  background-position: 0 0;
+  transition: .5s; */
 }
 
+/* .intro:hover {
+  border-radius: 25px;
+  background-color: #4a503d;
+  color: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .8);
+  transform: translateY(-10px) scale(1.02);
+}
+
+.intro:focus {
+  outline: 0;
+} */
 .second-section {
-  background-color: #fcd1d1;
+  background-color: #897853;
   position: relative;
   bottom: 8px;
   height: auto;
   padding-bottom: 20px;
 }
-.second-heading{
+
+.second-heading {
   font-family: 'Shippori Mincho', serif;
   text-align: center;
   padding-top: 30px;
 }
-
 
 .carousel-inner {
   text-align: center;
@@ -89,7 +111,7 @@ h1 {
 .testimonial-text {
   padding-top: 60px;
   font-family: 'Old Standard TT', serif;
-  color: #5b5b5b;
+  color: white;
 }
 
 .testimonial-image {
@@ -97,71 +119,100 @@ h1 {
 }
 
 /* third section */
-.third-section{
-position: relative;
-bottom: 8px;
-  background-color: #e7d9ea;
+.third-section {
+  position: relative;
+  bottom: 8px;
+  background-color: #4e3620;
   text-align: center;
   height: auto;
+  padding-bottom: 50px;
 }
-h3{
+
+h3 {
   text-align: center;
   padding-top: 50px;
   font-family: 'Martel', serif;
   line-height: 4;
   padding-bottom: 20px;
+  color: white;
 }
-.links{
+
+.links:link {
   padding-bottom: 70px;
-  color: #822659;
+  color: #f8f4e1;
+  background-color: transparent;
+  text-decoration: none;
 }
-.fourth-section{
+
+.links:visited {
+  padding-bottom: 70px;
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: brown;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.fourth-section {
   background-color: #2c061f;
   position: relative;
   bottom: 40px;
   height: auto;
 }
-h2{
+
+h2 {
   text-align: center;
   font-family: 'Inconsolata', monospace;
   padding-top: 30px;
   padding-bottom: 20px;
   color: white;
 }
-.icon{
-color: black;
-position: relative;
-left: 40%;
-padding-bottom: 10px;
+
+.icon {
+  color: black;
+  position: relative;
+  left: 40%;
+  padding-bottom: 10px;
 }
-.icon:hover{
-  color: pink;
+
+.icon:hover {
+  color: black;
 }
-.card-deck{
+
+.card-deck {
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 20px;
 }
-h5{
+
+h5 {
   text-align: center;
   font-family: 'Caveat', cursive;
 }
-h6{
+
+h6 {
   text-align: center;
   font-family: 'Akaya Telivigala', cursive;
 }
-.mail{
-  padding-bottom: 15px;
-}
-/* Fifth section */
 
-.fifth-section{
-position: relative;
-bottom: 40px;
-background-color: pink;
-height: auto;
+.mail {
+  padding-bottom: 15px;
+  color: black;
 }
-.fifth{
+
+/* Fifth section */
+.fifth-section {
+  position: relative;
+  bottom: 40px;
+  background-color: #4e3620;
+  height: auto;
+}
+
+.fifth {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
